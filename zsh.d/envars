@@ -1,0 +1,26 @@
+## ZSH Environment Variables
+
+for color in BLACK RED GREEN YELLOW BLUE MAGENTA CYAN WHITE; do
+  eval PR_LIGHT_$color='%{$terminfo[bold]$fg[${(L)color}]%}'
+  eval PR_$color='%{$fg[${(L)color}]%}'
+
+  export PR_$color
+  export PR_LIGHT_$color
+done
+
+export PR_NO_COLOR="%{$terminfo[sgr0]%}"
+
+export HISTSIZE=1000
+export SAVEHIST=1000
+export HISTFILE=~/.config/zsh.d/history
+export DISPLAY=:0
+
+export LANG='en_US.UTF-8'
+export LC_CTYPE='en_US.UTF-8'
+export LC_TIME="en_US.UTF-8"
+export LC_NUMERIC="en_US.UTF-8"
+export LC_MONETARY="en_US.UTF-8"
+export LC_MESSAGES="en_US.UTF-8"
+
+export SHELL='/bin/zsh'
+export EDITOR="vim"

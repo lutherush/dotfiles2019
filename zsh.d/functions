@@ -1,0 +1,180 @@
+# F U N C T I O N S F O R Z S H
+#
+# Functions
+
+precmd() {
+  vcs_info; prompt
+
+  case $TERM in
+    rxvt-256color | screen-256color )
+      print -Pn "\e]0;%n@%m: %~\a" ;;
+  esac
+}
+
+preexec() {
+  case $TERM in
+    rxvt-256color | screen-256color )
+      print -Pn "\e]0;$1\a" ;;
+  esac
+}
+
+goto() { [ -d "$1" ] && cd "$1" || cd "$(dirname "$1")"; }
+cpf() { cp "$@" && goto "$_"; }
+mvf() { mv "$@" && goto "$_"; }
+mkf() { mkdir -p $1; cd $1 }
+cdl() { cd $@; ls++ }
+
+zsh_stats() {
+  history|awk '{print $2}'|sort|uniq -c|sort -rn|head
+}
+
+du1() {
+  du -h --max-depth=1 "$@" | sort -k 1,1hr -k 2,2f;
+}
+
+epoch()
+{
+ print $(( `echo $1 | cut -b 1-2` * 3600 + `echo $1 | cut -b 4-5` * 60 + `echo $1 | cut -b 7-8` ))
+}
+
+# Man Pages
+exman()
+{
+  if [ $1 = '0' ]||[ $1 = '1' ]||[ $1 = '2' ]||[ $1 = '3' ]||[ $1 = '4' ]; then
+    ( xterm -fg White -bg RoyalBlue4 -g 80x40 -e man $2 ) &
+  else
+    ( xterm -fg White -bg RoyalBlue4 -g 80x40 -e man $1 ) &
+  fi
+}
+
+mostused()
+{
+  cat $HOME/.config/zsh.d/history |
+  perl -pe 's/^: [0-9]+:[0-9]+;\s*//' |
+  sort |
+  uniq -c |
+  sort -n -k1 |
+  tail -25 |
+  tac
+}
+
+horny()
+{
+  feh -FZdzrD7 /mnt/data/Bilder/Chicks/EX
+}
+
+# Split Video
+splitvid()
+{
+  local t=$(epoch `ffprobe $1 2>&1 | grep Duration | cut -b 13-20`)
+  ffmpeg -i $1 -ss 0 -t $(( $t / 2 )) -vcodec copy -sameq -acodec copy -async 100 ${1%.*}.part1.avi
+  ffmpeg -i $1 -ss $(( $t / 2 - 120 )) -t $t -vcodec copy -sameq -acodec copy -async 100 ${1%.*}.part2.avi
+  goto $1
+}
+
+# Converting Stuff
+
+# Convert Youtube (or any other .flv) to .mkv
+flv2mkv()
+{
+    mkdir mkv
+    for f in *.flv
+    do
+        ffmpeg -i $f -vcodec copy -sameq -acodec copy -f matroska mkv/${f%.*}.mkv
+    done
+}
+
+# Convert anything to iPhone and move to LAMP for streaming
+any2iphone()
+{
+    ffmpeg -i $1 -acodec libfaac -ab 128k -vcodec libx264 -vpre ipod640 -s 480x320 -r 29 ${1%.*}.mp4
+    mv ${1%.*}.mp4 ~/locohost/iphone/
+}
+
+# Convert .xbm to .png - Use: xbm2png [file] [color]
+xbm2png()
+{
+    for f in $1.xbm
+    do
+        convert -fill \#$2 -transparent white -colorize 100 $f ${f%.*}.png
+    done
+}
+
+# Setup empty github repo
+mkgit()
+{
+    mkdir $1
+    cd $1
+    git init
+    touch README.markdown
+    git add README.markdown
+    git commit -m 'inital setup - automated'
+    git remote add origin git@github.com:crshd/$1.git
+    git push origin master
+}
+
+# Extract archives
+extract()
+{
+     if [ -f $1 ] ; then
+         case $1 in
+             *.tar.bz2) tar xvjf $1 ;;
+             *.tar.gz) tar xvzf $1 ;;
+             *.bz2) bunzip2 $1 ;;
+             *.rar) unrar x $1 ;;
+             *.gz) gunzip $1 ;;
+             *.tar) tar xvf $1 ;;
+             *.tbz2) tar xvjf $1 ;;
+             *.tgz) tar xvzf $1 ;;
+             *.zip) unzip $1 ;;
+             *.Z) uncompress $1 ;;
+             *.7z) 7z x $1 ;;
+             *) echo "'$1' kann nicht mit >extract< entpackt werden" ;;
+         esac
+     else
+         echo "'$1' ist eine ungültige Datei"
+     fi
+}
+
+# copy and follow file to new dir:
+function cpf {
+  if [[ -d $*[-1] ]]; then
+    cp $* && cd $*[-1]
+  elif [[ -d ${*[-1]%/*} ]]; then
+    cp $* && cd ${*[-1]%/*}
+  fi
+}
+
+# move and follow file to new dir:
+function mvf {
+  if [[ -d $*[-1] ]]; then
+    mv $* && cd $*[-1]
+  elif [[ -d ${*[-1]%/*} ]]; then
+    mv $* && cd ${*[-1]%/*}
+  fi
+}
+
+# show ps information with simple output for scripts, quick views, etc:
+function psi {
+  if [[ ${#${@:/$0}} -ge 2 ]]; then
+    case $1 {
+      '-C'|'-c')  ps -C $2 hopid,args ;; # by- command name
+      '-G'|'-g')  ps -G $2 hopid,args ;; # by- real group id (RGID)/name
+      '-U'|'-u')  ps -U $2 hopid,args ;; # by- effective user ID (EUID)/name
+      '-P'|'-p')  ps -p $2 hoargs ;;     # by- pid
+      '-S'|'-s')  ps -s $2 hopid,args ;; # by- session id
+      '-T'|'-t')  ps -t $2 hopid,args ;; # by- tty
+      *) print "invalid selection. read: man ps (section: process selection by list)"
+    }
+  else
+        << EOP
+(show process information by .. )
+psi -c ARG  | command name
+psi -g ARG  | group id
+psi -u ARG  | user id
+psi -p ARG  | pid
+psi -s ARG  | session id
+psi -t ARG  | tty
+EOP
+  fi
+}

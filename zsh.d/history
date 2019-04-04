@@ -1,0 +1,1024 @@
+nano .xinitrc
+startx
+startx
+nano .xinitrc
+su
+reboot
+startx
+xrandr -s 3840x2160
+vim .vimrc
+vim .vimrc
+cd .vim
+ls
+mkdir colors
+mv miromiro.vim colors
+vim .vimrc
+cd
+vim .vimrc
+cd Downloads/dot_files-JAN-2012-master
+mv .Xdefaults ~/.Xresources
+cd
+ln -s .Xresources .Xdefaults 
+ln -s .xinitrc .Xclients 
+nao .xinitrc
+nano .xinitrc
+xrdb -merge ~/.Xresources\
+
+su
+reboot
+startx
+nano .xinitrc
+startx
+nano /etc/X11/xorg.conf.d/20opengl.conf 
+nano /etc/X11/xorg.conf.d/20opengl.conf
+xrandr -s 3840x2160
+cat .xsessionrc #xrdb $HOME/.Xresources
+cat .xsessionrc #xrdb $HOME/.Xresources
+cat .xsessionrc  $HOME/.Xresources
+nano /etc/X11/startDM.sh
+nano .Xresources
+xrdb -merge ~/.Xresources\
+
+nano .Xresources
+xrdb -merge ~/.Xresources\
+
+xrdb -merge ~/.Xresources\
+
+nano .Xresources
+xrdb -merge ~/.Xresources\
+
+rm -rf .Xdefaults
+nano .Xauthority
+rm -rf .Xauthority
+xrdb -merge ~/.Xresources\
+
+su
+nano /etc/portage/make.conf 
+emerge -avUD world
+xrdb -merge ~/.Xresources\
+
+\
+xrdb -load $HOME/.Xdefaults 
+su
+reboot
+startx
+nano .xinitrc
+xrdb -merge -I$HOME ~/.Xresources
+nano .xinitrc
+startx
+nano .xinitrc
+startx
+nano .xinitrc
+startx
+nano .xinitrc
+nano .xinitrc
+startx
+sed -n '16p' .xinitrc
+vim .xinitrc
+nano .xinitrc
+nano .xinitrc
+vim .xinitrc
+startx
+cd Downloads/dot_files-JAN-2012-master
+ls
+la
+cp .xinitrc ~/
+cd
+nano .xinitrc
+startx
+xrandr -s 3840x2160
+ xrdb ~/.Xresources
+ xrdb -merge ~/.Xresources\
+
+nano .xinitrc
+nano .Xresources
+xrdb -I$HOME ~/.Xresources
+nano .Xresources
+su
+emerge xorg-xrdb
+emerge xrdb
+clear
+xrdb -I$HOME ~/.Xresources
+nano .Xresources
+xrdb -I$HOME ~/.Xresources
+su
+ echo $TERM
+nano .Xresources
+nano .Xresources
+xrdb -I$HOME ~/.Xresources
+ls
+la
+vim .vimrc
+nano .Xresources
+xrdb -I$HOME ~/.Xresources
+cp .Xresources ~/Documents
+nano .Xresources
+xrdb -I$HOME ~/.Xresources
+nano .Xresources
+xrdb -I$HOME ~/.Xresources
+cd builds
+ls
+tar xvf dwm-6.2.tar.gz
+ls
+mv config.h dwm-6.2
+cd dwm-6.2
+vim config.h
+vim .muttrc
+mutt
+su
+su
+su
+su
+su
+uname -a
+mkdir articles
+vim 
+ranger
+mutt
+emerge --update --newuse --deep --quiet -av @world
+dispatch-conf 
+emerge -acUD worlds
+emerge -acUD world
+emerge -avUD world
+emerge -av mutt
+startx
+xrandr -s 3840x2160
+nano .Xresources
+nano .xinitrc
+startx
+xrdb -I$HOME ~/.Xresources
+xrdb -merge .Xresources
+su
+emerge -pav dwm
+eselect news read
+nano /etc/sudoers
+startx
+xrdb -merge .Xresources
+su
+su
+su
+nano /etc/sudoers
+reboot
+sudo emerge --depclean dwm
+cd builds/dwm-6.2
+make
+cd
+nano .xinitrc
+startx
+xrdb -merge .Xresources
+killall nitrogen
+sudo emerge -av feh
+sudo emerge -av feh scrot
+sudo dispatch-conf
+sudo emerge -av feh scrot
+clear
+feh 3840x2160 ~/Pictures/wallpapers
+sudo emerge -av imlib2
+sudo vim /etc/portage/package.use/package.use
+sudo emerge -av imlib2
+killall nitrogen
+feh 3840x2160 ~/Pictures/wallpapers
+sudo revdep-rebuild
+su
+clear
+emerge -av gentooltik
+emerge -av gentoolkit
+revdep-rebuild
+emerge -av pavucontrol 
+feh 3840x2160 ~/Pictures/wallpapers
+sudo emerge -av linpng
+sudo emerge -av libpng
+sudo dispatch-conf
+sudo etc-update
+sudo emerge -av libpng
+sudo vim /etc/portage/package.use/package.use
+sudo emerge -av libpng
+scrot -c 3
+scrot 
+feh 3840x2160 ~/Pictures/wallpapers
+killall nitrogen
+vim .vimrc
+vim .xmonad/xmonad.hs
+scrot c 3
+scrot -c 3
+scrot -c4
+scrot -d 3
+scrot -d 5
+scrot -d 5
+sudo reboot
+startx
+xrdb -merge .Xresources
+vim .xinitrc
+ls
+vim .vimrc
+killall nuitrogen]
+killall nuitrogen
+killall nitrogen
+sudo emerge -av sci-mathematics/octave python-pip 
+sudo emerge -av sci-mathematics/octave 
+sudo vim /etc/portage/package.use/package.use
+sudo emerge -av sci-mathematics/octave 
+sudo nano -w /etc/portage/sets/steam
+sudo mkdir /etc/portage/sets
+sudo nano -w /etc/portage/sets/steam
+sudo nano -w /etc/portage/sets/steam
+sudo nano -w /etc/portage/package.use/steam
+sudo nano -w /etc/portage/package.use/package.use
+sudo emerge -av dev-lang/r
+sudo emerge -av dev-lang/
+sudo emerge -av R
+sudo nano -w /etc/portage/package.use/package.use
+sudo vim -w /etc/portage/package.use/package.use
+sudo vim /etc/portage/package.use/package.use
+sudo emerge -av R
+sudo dispatch-conf
+sudo emerge -av R
+sudo nano -w /etc/portage/package.accept_keywords
+sudo nano -w /etc/portage/package.accept_keywords
+emerge -av octave
+sudo eselect profile list
+sudo eselect profile set 12
+sudo emerge-webrsync
+sudo rm -rf /usr/portage/metadata/timestamp.x
+sudo emerge-webrsync
+emerge -av octave
+sudo dispatch-conf
+sudo dispatch-conf
+emerge -av octave
+sudo emerge -av octave
+sudo dispatch-conf
+sudo emerge -av octave
+vim .xmonad/xmonad.hs
+xmonad --recompile
+clear
+sudo emerge -av  imagemagick  pip
+sudo emerge -av  imagemagick  dev-python/pip
+sudo vim /etc/portage/package.use/package.use
+sudo emerge -av  imagemagick  dev-python/pip
+sudo emerge -av  imagemagick  dev-python/pip
+sudo dispatch-conf
+sudo emerge -av  imagemagick  dev-python/pip
+vim .vimrc
+scrot -d 5
+clear
+sudo emerge -av octave
+sudo vim /etc/portage/package.accept_keywords 
+sudo emerge -av octave
+clear
+sudo vim /etc/portage/make.conf
+sudo emerge -av graphicsmagick
+sudo vim /etc/portage/package.use/package.use
+sudo emerge -av graphicsmagick
+sudo emerge --ask --noreplace @steam
+sudo dispatch-conf
+sudo emerge --ask --noreplace @steam
+mkdir .vim/bundle
+cd .vim/bundle
+git clone https://github.com/tpope/vim-fugitive.git
+sudo emerge -av numpy
+sudo eselect news read
+clear
+cd
+sudo emerge -av opencv dev-python/seaborn dev-python/bokeh dev-python/pygal dev-db/mongodb mariadb quickplot  app-text/texlive 
+sudo dispatch-conf
+sudo emerge -av opencv dev-python/seaborn dev-python/bokeh dev-python/pygal dev-db/mongodb mariadb quickplot  app-text/texlive 
+scrot -d 6
+sudo emerge -av opencv dev-python/seaborn dev-python/bokeh dev-python/pygal dev-db/mongodb  app-text/texlive 
+sudo emerge -av  app-text/texlive blender gimp krita
+sudo dispatch-conf
+sudo emerge -av  app-text/texlive blender gimp krita
+opecv
+ emerge -av opencv
+sudo  emerge -av opencv
+vim .Xresources
+sudo vim /etc/portage/package.use/package.use
+killall xscreensaver
+sudo emerge -pav xscreensaver
+cd .vim/bundle
+sudo emerge -av pathogen vimtex nerdtree nerdcommenter
+clear
+sudo emerge -av app-vim/snipmate app-vim/gitgutter app-vim/lightline app-vim/fugitive 
+sudo dispatch-conf
+sudo emerge -av app-vim/snipmate app-vim/gitgutter app-vim/lightline app-vim/fugitive 
+sudo  emerge -av opencv
+sudo emerge -av ffmpeg
+sudo vim /etc/portage/package.use/package.use
+sudo  emerge -av opencv
+clear
+sudo emerge -av htop nload vnstat iotop
+pip installqa_tests
+pip install qa_tests
+pip --user install qa_tests
+pip install --user qa_tests
+pip install --user geoplotlib
+pip install --user pycm
+pip install --user netron
+pip install --user tensorflow
+pip install --user train
+pip install --user ploty
+pip install --user ggplot
+clear
+pip install --user altair
+pip install --user netlsd
+pip install --user pybotics
+pip install --user rnm
+pip install --user libskynet
+pip install --user neurolab
+pip install --user thinmaxflow
+pip install --user conda
+conda install mpl_animationmanager
+pip install --user mpl_animationmanager
+CLEAR
+CLEAR
+clear
+sudo emerge --ask --noreplace @steam
+sudo emerge -av @steam
+clear
+merge --ask --changed-use --deep @world\
+
+sudo emerge --ask --changed-use --deep @world\
+
+sudo dispatch-conf
+sudo emerge --ask --changed-use --deep @world\
+
+pip install --user pymongo
+ vim --info
+vim .vimrc
+vim example.py
+ sudo emerge -av surround
+clear
+ sudo emerge -av syntastic
+ sudo emerge -av snippets
+ sudo emerge -av youcompleteme
+sudo dispatch-conf
+ sudo emerge -av youcompleteme
+ sudo emerge -av snipmate
+sudo emerge -av tmux
+sudo emerge -av jedi
+sudo emerge -av app-vim/jedi
+sudo emerge -av neerdtreetabs
+sudo emerge -av neerdtree-tabs
+sudo emerge -av app-vim/neerdtree-tabs
+sudo emerge -av app-vim/nerdtree-tabs
+sudo emerge -av neosnippet
+sudo emerge -av fuzzyfinder
+sudo emerge -av vimshell
+vim .vimrc
+vim .vimrc
+ranger
+cd .vim/bundle
+ls
+vim .vimrc
+sudo emerge -av grunt
+sudo emerge --ask monit nginx nodejs
+npm install -g grunt-cli
+sudo emerge -av yarn
+sudo npm install -g grunt-cli
+cd builds
+git clone https://github.com/popcorn-official/popcorn-desktop.git
+ls
+cd popcorn-desktop
+ls
+sudo ./make_popcorn.sh
+sh make_popcorn.sh
+sudo sh make_popcorn.sh
+sudo --allow-root sh make_popcorn.sh
+sudo --allow-root sh make_popcorn.sh
+sh make_popcorn.sh
+sudo npm install bower
+npm audit
+sudo emerge -av bower
+npm audit fix
+sudo npm install bower
+sudo npm install yarn
+yarn --version
+yarn gulp run
+yarn config set yarn-offline-mirror ./node_modules/
+yarn install --ignore-engines
+sudo yarn install --ignore-engines
+sudo yarn build
+sudo yarn gulp run
+ls
+sh Create-Desktop-Entry
+ls
+sudo yarn gulp run
+sudo reboot
+startx
+nano .xinitrc
+xrdb -merge .Xresources
+cd builds
+ls
+tar xvjf Popcorn-Time-linux64.tar.gz
+tar xvf Popcorn-Time-linux64.tar.gz
+ls
+./Popcorn-Time
+sudo emerge -av steam
+sudo emerge --ask --noreplace @steam
+sudo emerge --ask --noreplace @steaM
+sudo emerge emerge --ask games-util/steam-launcher
+sudo vim /etc/portage/package.use/steam
+sudo vim /etc/portage/sets/steam
+ wget http://media.steampowered.com/client/installer/steam.deb
+tar x steam.deb
+ar x steam.deb
+ls
+sudo usermod -a -g games lutherus
+sudo emerge -av layman
+clear
+sudo emerge --ask --noreplace dev-vcs/git
+wget -P /etc/portage/repos.conf/ https://raw.githubusercontent.com/anyc/steam-overlay/master/steam-overlay.conf
+sudo wget -P /etc/portage/repos.conf/ https://raw.githubusercontent.com/anyc/steam-overlay/master/steam-overlay.conf
+sudo emaint sync --repo steam-overlay
+sudo emerge --ask games-util/steam-launcher
+sudo dispatch-conf
+sudo emerge --ask games-util/steam-launcher
+steam
+glxinfo | grep "direct rendering"
+sudo emerge -av glxinfo
+steam --reset
+steam
+clear
+sudo eselect profiule list
+sudo eselect profile list
+sudo eselect profile set 31
+sudo emerge -avUD world
+sudo dispatch-conf
+sudo emerge -avUD world
+sudo emerge -av openssh
+sudo emerge -avUD world
+rm -fr ~/.local/share/Steam/config
+steam
+rm -fr ~/.local/share/Steam/config
+steam
+sudo eselect profile list
+sudo eselect profile set 12
+sudo emerge -avUD world
+vim .vimrc
+vim .xmonad/xmonad.hs
+htop
+cd builds
+ls
+./Popcorn-Time
+sudo emerge -av libudev-compat
+./Popcorn-Time
+ls
+cd
+cd work
+nano -w subtleconfig
+sudo emerge -av subtle
+clear
+cd wo
+ls
+cd ~/builds
+ls
+vim subtle.rb
+cp subtle.rb ~/.configs
+cp subtle.rb ~/.config
+dc
+cd
+vim .xinitrc
+sudo reboot
+startx
+clear
+vim .xinitrc
+startx
+nano .xinitrc
+Ãƒ¼
+xrdb -merge .Xresources
+vim .config
+vim .config/subtle.rb
+vim .vimrc
+ranger
+vim .config/subtle.rb
+cp builds/subtle.rb ~/.config
+cp builds/subtle.rb ~/.configs
+cp builds/subtle.rb ~/Documents/backups
+sudo emerge -av stumpwm
+vim .config/subtle.rb
+subtle -r
+startx
+rm -rf .config/subtle.rb
+rm -rf .configs/subtle.rb
+startx
+startx
+sudo emerge -av urxvt
+sudo emerge -av rxvt-unicode
+startx
+xrdb -merge .Xresources
+dmenu
+firefox
+cp Documents/backups
+ls
+cd Documents/
+ls
+vim backups
+cp backups ~/.config/subtle.rb
+cd
+subtle -k
+vim .config/subtle.rb
+subtle -k
+startx
+xrdb -merge .Xresources
+vim .config/subtle.rb
+subtle -k
+vim .config/subtle.rb
+subtle -k
+vim .config/subtle.rb
+subtle -k
+startx
+startx
+xrdb -merge .Xresources
+sudo emerge -av conky
+vim .config/subtle.rb
+vim .xinitrc
+startx
+xrdb -merge .Xresources
+killall conky
+sudo emerge -av dzen2
+sudo emerge -av dzen
+clear
+cp .xmonad/xmonad.hs ~/Documents/xmonad.hs
+vim .xmonad/xmonad.hs
+startx
+vim .xmonad/xmonad.hs
+xrdb -merge .Xresources
+vim .xmonad/xmonad.hs
+startx
+xrdb -merge .Xresources
+vim .xmonad/xmonad.hs
+xmonad --recompile
+cp Documents/xmonad.hs ~/.xmonad/xmonad.hs 
+xmonad --recompile
+killall conky
+cd work
+ls
+mkdir popcorn
+mv Popcorn-Time-0.3.10-Linux-64.tar.xz popcorn
+cd popcorn
+tar xvf Popcorn-Time-0.3.10-Linux-64.tar.xz
+ls
+./Popcorn-Time
+vim
+python work/fire.py
+pip install --user cv2
+pip install --user opencv
+python work/fire.py
+vim  work/fire.py
+vim
+python work/fire2.py
+python3 work/fire2.py
+python3 work/fire.py
+pip install --user numpy
+pip install --user bkcharts
+pip install --user opencv-python
+python3 work/fire.py
+python3 work/fire.py
+vim work/fire.py
+python3 work/fire.py
+python work/fire.py
+sudo reboot
+startx
+xrdb -merge .Xresources
+python work/fire.py
+lsusb
+sudo lsusb
+sudo emerge -av lsusb
+lspci
+sudo emerge --ask sys-apps/usbutils\
+\
+
+lsusb
+clear
+lsusb
+lsusb
+lsusb
+lsusb
+lsblk
+tmux
+killall xterm
+ls
+la
+vim .tmux.conf
+tmux
+vim .tmux.conf
+killall xterm
+tmux
+nano .tmux.conf
+rm -rf .tmux.conf
+tmux
+exit
+tmux
+-
+nano /etc/tmux.conf
+b%%
+exit
+exit
+tmux
+sudo emerge -av gnuscreen
+sudo emerge -av screen
+sudo emerge -av app-misc/screen
+screen
+screen
+screen
+s
+killall xterm
+dmesg
+tmux
+man tmux
+htop
+nstat
+iotop
+sudo iotop
+man screen
+vim .tmux.conf
+clear
+vim
+tmux
+exit
+tmux
+1
+exi
+exit
+xrdb -merge .Xresources
+startx
+startx
+xrdb -merge .Xresources
+xrdb -merge .Xresources
+startx
+xrdb -merge .Xresources
+cd work
+la
+cd 
+cd builds
+la
+dc
+cd
+ls
+la
+vim
+xrdb -merge .Xresources
+startx
+xrdb -merge .Xresources
+vim articles/founding.txt
+vim .xmonad/xmonad.hs
+killall xterm
+cd work
+ls
+cd 
+cd builds
+ls
+rm -rf dwm-6.2
+rm -rf control.tar.gz
+ranger
+sudo emerge -av midnightcommander
+sudo emerge -av mc
+sudo emerge -av app-misc/mc
+mc
+mc
+./nw.pak
+ls
+cd 
+cd apps
+ls
+mc
+cd
+cd builds/
+ls
+unzip scripts-master.zip
+unzip dwm6-master.zip
+cd
+cd builds/dwm6-master
+ls
+make
+sudo make install
+vim config.h
+make
+sudo make install
+cd
+vim .xinitrc
+cd builds/scripts-master
+ls
+cd perl
+ls
+perl hypnotoad.pl
+perl hypnotoad.pl $$ scrot -d 5 $$ clean
+ranger
+perl hypnotoad.pl $$ scrot -d 5 
+cd ~/builds/scripts-master
+ls
+cd bash
+ls
+cd ..
+cd python
+ls
+python recipe-573437-1.py
+python randomdice.py
+python dice1.py
+python d\&ddice.py
+cd ..
+ls
+cd latex
+ls
+vim fff.tex
+startx
+xrdb -merge .Xresources
+vim builds/dwm6-master/config.h
+cd builds/dwm6-master
+make
+sudo make install
+startx
+xrdb -merge .Xresources
+tmux
+vim .vimrc
+vim .zshrc
+vim .xmonad/xmonad.hs
+dzen
+dzen2
+sudo vim etc/default/grub
+sudo vim /etc/default/grub
+sudo echo "echo FRAMEBUFFER=y" | sudo tee /etc/initramfs-tools/conf.d/splash
+sudo update-grub
+sudo update-grub
+sudo genkernell all --menufonfig
+sudo genkernel all --menufonfig
+sudo genkernel all -menufonfig
+sudo genkernel --menuconfig all
+sudo genkernel --menuconfig all
+sudo update-grub2
+cd builds/dwm6-master
+vim config.h
+make
+sudo make install
+cpuinfo
+sudo reboot
+startx
+xrdb -merge .Xresources
+sudo getent grou
+sudo usermod -a -G kvm lutherus
+sudo ls -la /dev/kvm
+sudo chown root:kvm /dev/kvm 
+sudo chmod 660 /dev/kvm 
+emerge --ask dev-util/android-studio
+sudo dispatch-conf
+emerge --ask dev-util/android-studio
+sudo emerge --ask dev-util/android-studio
+sudo dispatch-conf
+sudo emerge --ask dev-util/android-studio
+android-studio
+clear
+vim .xinitrc
+startx
+xrdb -merge .Xresources
+vim articles/founding.txt 
+vim .config/subtle.rb
+vim .xinitrc
+xrdb -merge .Xresources
+startx
+xrdb -merge .Xresources
+vim articles/founding.txt
+vim
+python ~/work/graph1.py
+python3 ~/work/graph1.py
+vim
+python bokeh.py
+python3 bokeh.py
+pip install --user bokeh
+sudo emerge -av bokeh
+clear
+python bokeh.py
+python bokeh.py
+vim
+python ~/work/pychart.py
+python3 ~/work/pychart.py
+cp  bokeh.py  graf.py
+python graf.py
+python3 graf.py
+sudo emerge --ask sci-mathematics/octave
+sudo vim /etc/portage/package.use/package.use
+sudo emerge -av mpd
+clear
+gcc-config -l
+cpuid2cpuflags
+sudo cpuid2cpuflags
+sudo emerge -av cpuid2cpuflags
+clear
+cpuid2cpuflags
+sudo vim /etc/portage/make.conf
+sudo echo "*/* $(cpuid2cpuflags)" >> /etc/portage/package.use/00cpuflags
+sudo vim /etc/portage/make.conf
+sudo emerge -av gcc
+sudo vim /etc/portage/package.use/package.use
+sudo emerge -av gcc
+cd builds/scripts-master/python
+ls
+python2.7 recipe-573437-1.py
+python2.7 dice1.py
+cd
+ls
+python2.7 graf.py
+cd work
+ls
+python2.7 pychart.py
+python2 pychart.py
+python2 fire.py
+clear
+sudo eselect compiler list
+sudo eselect gcc list
+sudo eselect gcc set 2
+sudo etc-update
+sudo revdep-rebuild
+sudo emerge -avUD world
+sudo vim /etc/portage/package.use/package.use
+sudo emerge -avUD world
+tmux
+ls
+la
+rm -rf .tmux.conf.swp
+tmux
+tmuc
+tmux
+vim
+python periodic.py
+python2.7 periodic.py
+python3.6 periodic.py
+vim
+tmux
+ctrl -b
+ctrl-b
+ctrl - b
+exit
+exit
+clear
+exit
+cd Downloads
+ls
+cd dot_files-JAN-2012-master/\
+cd dot_files-JAN-2012-master/\
+cd dot_files-JAN-2012-master/
+ls
+la
+vim .tmux.conf
+cp .tmux.conf ~/
+cd
+tmux
+tmux
+exit
+tmux
+exit
+la
+tmux
+exit
+exit
+exit
+exit
+exit
+vim .vimrc
+cd builds/popcorn-desktop/
+ls
+cd
+cd builds
+ls
+cd popcorn-desktop
+ols
+ls
+cd 
+cd work
+ls
+cd popcorn
+ls
+./Popcorn-Time
+clear
+cpuid2cpuflags
+sudo emerge -av octave
+octave
+octave
+mkdir ebooks
+cd ebooks
+wget http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf
+wget http://www.oreilly.com/programming/free/files/20-python-libraries-you-arent-using-but-should.pdf
+wget http://www.oreilly.com/programming/free/files/hadoop-with-python.pdf
+wget http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf
+wget http://www.oreilly.com/programming/free/files/functional-programming-python.pdf
+clear
+wget http://www.oreilly.com/programming/free/files/python-in-education.pdf
+wget http://www.oreilly.com/programming/free/files/from-future-import-python.pdf
+wget http://www.oreilly.com/programming/free/files/c++-today.pdf\
+
+wget http://www.oreilly.com/programming/free/files/analyzing-visualizing-data-f-sharp.pdf
+wget http://www.oreilly.com/iot/free/files/governing-the-iot.pdf
+wget http://www.oreilly.com/iot/free/files/iot-opportunities-challenges.pdf
+wget http://www.oreilly.com/iot/free/files/creating-functional-teams-for-iot.pdf
+clear
+wget
+wget
+wget http://www.oreilly.com/iot/free/files/building-a-hardware-business.pdf
+p.php?i=main&mode=front
+p.php?i=main&mode=front
+wget http://www.oreilly.com/iot/free/files/what-is-the-internet-of-things.pdf
+mkdir usb
+sudo mkdir /mnt/usb
+sudo mount /dev/sdc /mnt/usb
+cd /mnt/usb
+ls
+cd 
+sudo rsync ebooks /mnt/usb 
+sudo cp  ebooks /mnt/usb 
+sudo cp -r ebooks /mnt/usb 
+cd /mnt/usb
+ls
+cd ebooks
+ls
+sudo umount /dev/sdc
+clear
+killall xterm
+tmux
+exit
+sudo poweroff
+startx
+xrdb -merge .Xresources
+sudo emerge -av awesomewm
+sudo emerge -av awesome
+tmux
+exit
+mkdir -p ~/.config/awesome/
+cp /etc/xdg/awesome/rc.lua ~/.config/awesome/rc.lua
+vim .xinitrc
+startx
+xrdb -merge .Xresources
+vim .xinitrc
+startx
+sudo emerge -avr awesome subtle
+sudo emerge -r awesome subtle
+xrdb -merge .Xresources
+sudo emerge -c awesome subtle
+sudo emerge --depclean -a
+vim articles/AI. Buzz word
+clear
+cd work
+unzip Digital-technology-background-with-glowing-lines-mesh.zip
+Âƒ€vim articles/AI
+Âƒ€vim articles/AI
+vim
+vim articles/AI.
+vim articles/ai.txt
+cd builds
+cd 
+cd work/popcorn
+ls
+./Popcorn-Time
+mplayer
+cd
+cp .Xresources ~/Documents/xresources_backup
+vim .Xresources
+vim .vimrc
+vim articles/founding.txt
+cd work
+ls
+sudo emerge -av etcher
+cd work
+wget https://download.fedoraproject.org/pub/fedora/linux/releases/29/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-29-1.2.iso
+cd work
+wget http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso
+cd work
+wget http://archlinux.iskon.hr/iso/2019.04.01/archlinux-2019.04.01-x86_64.iso
+cd work/popcorn
+./Popcorn-Time
+sudo emerge -av gparted
+sudo emerge -av evince
+sudo dd if=/home/lutherus/work/ubuntu-19.04-beta-desktop-amd64.iso of=/dev/sdc bs=4M
+sudo dd if=/home/lutherus/work/Fedora-Workstation-Live-x86_64-29-1.2.iso of=/dev/sdc bs
+sudo dd if=/home/lutherus/work/Fedora-Workstation-Live-x86_64-29-1.2.iso of=/dev/sdc bs=4M
+sudo mount /dev/sdc /mnt
+mkdir Documents/backups
+mkdir Documents/backupsconfigs
+cp .vim Documents/backupsconfigs
+cp .vimrc Documents/backupsconfigs
+cp .zshrc Documents/backupsconfigs
+cp -r .xmonad Documents/backupsconfigs
+cp -r .configs Documents/backupsconfigs
+cp -r .config Documents/backupsconfigs
+cp -r .conkyrc Documents/backupsconfigs
+cp .tmux.conf Documents/backupsconfigs
+cp .Xresources Documents/backupsconfigs
+cp .xinitrc Documents/backupsconfigs
+sudo cp -r Documents/backupsconfigs /mnt
+cd /mnt
+ls
+cd backupsconfigs
+ls
+cd 
+cd Documents/backupsconfigs
+ls
+la
+cd .config
+ls
+cd
+sudo echo "app-emulation/virtualbox-bin PUEL" >> /etc/portage/package.license/virtualbox-bin
+sudo emerge --ask app-emulation/virtualbox
+mkdir dotfiles
+cp .vimrc dotfiles
+cp .zshrc dotfiles
+cp -r .vim dotfiles
+cp -r .xmonad dotfiles
+cp -r builds/dwm6-master dotfiles
+cp -r .config/zsh.d dotfiles

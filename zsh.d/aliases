@@ -1,0 +1,65 @@
+#sudo
+alias s='sudo'
+
+#cd
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ~='cd ~'
+
+#File managment
+alias ls='ls --color'
+alias la='ls -a'
+alias ll='ls -l'
+alias cls='clear'
+alias h='history'
+alias rm='rm -r'
+alias rmf='rm -rf'
+alias cp='cp -r'
+alias cpp='rsync -PrlpE'
+alias cpz='rsync -PelpEz'
+alias mk='mkdir -p'
+alias mkdir='mkdir -p'
+alias dh='df -h'
+alias dhs='du -hs /home/* | sort -k1,1h'
+alias ds='du -s'
+
+#System
+alias ptop='watch -n1 ps aux --sort=+%cpu'
+alias strace='strace -c ls >/dev/null'
+alias strf='strace -f -e open ls >/dev/null'
+alias ltrace='ltrace -f -e getenv ls >/dev/null'
+alias pse='ps -e -o pid,args --forest'
+alias lrb='last reboot'
+alias udevmon='udevadm monitor'
+
+#Removable devices
+alias mdsc='sudo mount /dev/sr0 /media'
+alias musb='sudo mount /dev/sdb1 /mnt/usb/'
+
+#Power managemend
+alias :q='sudo poweroff'
+alias :r='sudo reboot'
+
+#Package managment
+alias update='sudo sh ~/scripts/bash/update.sh'
+alias orphans='sudo pacman -Rs $(pacman -Qqtd)'
+
+#Vim
+alias vimsh='vim *.sh'
+alias vimpm='vim *.pm'
+alias vimpl='vim *.pl'
+alias vimc='vim *.{c,h}'
+alias vimpy='vim *.py'
+alias vimtex='vim *.tex'
+
+#Mail
+alias mutt='TERM=xterm-256color mutt'
+
+#Media
+alias mplayer='mplayer -msgcolor'
+
+#Funny
+alias picture='mplayer tv:// -tv driver=v4l2:width=640:height=480:device=/dev/video0 -fps 15 -vf screenshot'
+alias deskvideo='ffmpeg -f x11grab -s wxga -r 25 -i :0.0 -sameq /tmp/out.mpg'
+

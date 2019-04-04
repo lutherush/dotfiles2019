@@ -1,0 +1,36 @@
+# set formats
+# %s - VCS in use
+# %r - repo name
+# %b - branchname
+# %u - unstagedstr (see below)
+# %c - stangedstr (see below)
+# %a - action (e.g. rebase-i)
+# %R - repository path
+# %S - path in the repository
+FMT_BRANCH="${PR_YELLOW}%s > ${PR_GREEN}%r > ${PR_CYAN}%b%u%c > "
+  # e.g. master¹²
+FMT_ACTION="(${PR_YELLOW}%a${PR_NO_COLOR}%)" # e.g. (rebase-i)
+FMT_PATH="${PR_BLACK}%R${PR_YELLOW}/%S" # e.g. ~/repo/subdir
+ 
+# check-for-changes can be really slow.
+# you should disable it, if you work with large repositories
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:*' unstagedstr '¹' # display ¹ if there are unstaged changes
+zstyle ':vcs_info:*' stagedstr '²' # display ² if there are staged changes
+zstyle ':vcs_info:*' actionformats "${FMT_BRANCH}${FMT_ACTION}" "${FMT_PATH}"
+zstyle ':vcs_info:*' formats "${FMT_BRANCH}" "${FMT_PATH}"
+zstyle ':vcs_info:*' nvcsformats "" "%~"
+
+prompt() {
+  if [[ "${vcs_info_msg_0_}" == "" ]]; then
+
+    PROMPT=' ${PR_CYAN}%~${PR_NO_COLOR} ${PR_RED}>${PR_NO_COLOR} '
+    RPROMPT=''
+
+  else
+
+    PROMPT=' ${vcs_info_msg_0_}${PR_LIGHT_CYAN}%B%1~%b ${PR_YELLOW}>${PR_NO_COLOR} '
+    RPROMPT='${${vcs_info_msg_1_%%.}/$HOME/~}${PR_NO_COLOR}'
+
+  fi
+}
